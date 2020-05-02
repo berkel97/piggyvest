@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: U8, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(6, 48, 99);
+}
+
+.background img {
+    position: fixed;
+
+    height: 250px;
+    width: 250px;
+}
+
+.background .top-left {
+    top: -90px;
+    left: -80px;
+}
+
+.background  .top-right {
+    top: -90px;
+    right: -80px;
+}
+
+.background .bottom-left {
+    left: -90px;
+    bottom: -80px;
+}
+
+.background .bottom-right {
+    right: -90px;
+    bottom: -60px;
+}
+
+.logo {
+    text-align: center;
+    padding: 50px 0;
+     position: relative;
+     z-index: 1;
+}
+
+.form {
+    background-color: white;
+    min-width: 100px;
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 50px;
+    border-radius: 20px 20px 20px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.form header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form h1 {
+    color: #083e9e;
+    font-size: 1.5rem;
+    padding-bottom: 5px;
+}
+
+.form p {
+    font-size: .875rem;
+    color: #4a5568;
+    font-family: Karla,
+    sans-serif;
+}
+.form .entry {
+    margin-bottom: 30px;
+
+}
+
+.form label {
+    display: block;
+    font-size: .75rem;
+    color: #4a5568;
+    margin-bottom: .25rem;
+    line-height: 2;
+    font-weight: 700;
+}
+
+.form input, .form select {
+    width: 100%;
+    color: #1a202c;
+    background-color: #edf2f7;
+    padding: 1rem;
+    border-radius: .25rem;
+    font-size: 100%;
+    border: 0;
+}
+
+.form .submit button{
+    width: 100%;
+    background-color: rgb(8, 62, 158);
+    font-size: .875rem;
+    color: #fff;
+    text-align: center;
+    padding: 1.25rem 2.5rem 1rem 2.5rem;
+    font-weight: 700;
+    border-radius: 0.75rem 0.75rem 0.75rem 0;
+}
+.login p {
+    color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+    font-size: .875rem;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
